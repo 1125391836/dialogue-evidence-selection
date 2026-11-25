@@ -1,0 +1,42 @@
+{
+  "n": 96,
+  "weights": "2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730",
+  "counts": {
+    "recent": {
+      "no_write": 93,
+      "required_exact": 2,
+      "default_exact": 0,
+      "malformed": 0,
+      "wrong": 3
+    },
+    "field_support": {
+      "no_write": 92,
+      "required_exact": 3,
+      "default_exact": 0,
+      "malformed": 0,
+      "wrong": 4
+    },
+    "adjacent": {
+      "no_write": 94,
+      "required_exact": 1,
+      "default_exact": 0,
+      "malformed": 0,
+      "wrong": 2
+    },
+    "pivot": {
+      "wrong": 6,
+      "required_exact": 0,
+      "default_exact": 0,
+      "malformed": 0,
+      "no_write": 90
+    },
+    "decision": {
+      "no_write": 94,
+      "required_exact": 1,
+      "default_exact": 0,
+      "malformed": 0,
+      "wrong": 2
+    }
+  },
+  "unique": 336
+}

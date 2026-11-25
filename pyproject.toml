@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context-bundles"
+version = "0.2.0"
+description = "Reproducible pilot experiments for budgeted context selection"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+tokens = ["tiktoken>=0.8,<1"]
+research = ["numpy>=2", "scikit-learn>=1.5", "matplotlib>=3.9", "tokenizers>=0.20"]
+
+[project.scripts]
+context-bundles = "context_bundles.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

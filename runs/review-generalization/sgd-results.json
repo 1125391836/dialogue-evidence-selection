@@ -1,0 +1,152 @@
+{
+  "protocol_sha256": "0485947083efa451154905a25e7bb1556947dadc1d330881105d3c3f9afbda62",
+  "counts": {
+    "screened": 1024,
+    "no_categorical_target": 141,
+    "service_excluded": 493,
+    "eligible": 390
+  },
+  "file_sha256": {
+    "train/dialogues_002.json": "56a06f9762593b27f5b34225de4ce37da5e83c9c5747e56bca2899f147d88b3e",
+    "train/dialogues_018.json": "ceadf059b7c4ec5e31b7b53ee696198c7a5baa2ff03544b81b4adbe9cb7eca05",
+    "train/dialogues_034.json": "782a499577aba5dc0f11edb6ed803cb8023bd4828a914cb4ff712966604e36cb",
+    "train/dialogues_050.json": "40543b657e832ab34b4bb4733ecbf1e7d1f15566674e49191c70261d29490aba",
+    "train/dialogues_066.json": "9b6145e988296f133c5414db17798098b97ef01bda44b7b1740ade97c268770e",
+    "train/dialogues_082.json": "11751fd14c9580880d1b3157e10103477cd9a7333a689eda89c6f00a21660da6",
+    "train/dialogues_098.json": "b08094174ff819f259ea64c199e8d3c5141006b11e00b428be21d5b7e452bc0b",
+    "train/dialogues_114.json": "619616f5a4d46200105dc2ea3ce1b1c131051edf57ca64b495f693cd8eafb4f4"
+  },
+  "schema_eligible_services": [
+    "Banks_1",
+    "Buses_2",
+    "Calendar_1",
+    "Events_2",
+    "Flights_1",
+    "Flights_2",
+    "Hotels_3",
+    "Media_1",
+    "Music_2",
+    "RentalCars_2",
+    "Restaurants_1",
+    "Services_2",
+    "Services_3"
+  ],
+  "previous_train_frame_services": [
+    "Banks_1",
+    "Buses_1",
+    "Buses_2",
+    "Calendar_1",
+    "Events_1",
+    "Events_2",
+    "Flights_1",
+    "Flights_2",
+    "Hotels_1",
+    "Hotels_2",
+    "Hotels_3",
+    "Media_1",
+    "Movies_1",
+    "Music_1",
+    "Music_2",
+    "RentalCars_1",
+    "RentalCars_2",
+    "Restaurants_1",
+    "Services_1",
+    "Services_2",
+    "Services_3",
+    "Travel_1",
+    "Weather_1"
+  ],
+  "overall": {
+    "n": 390,
+    "recent": 145,
+    "coverage": 145,
+    "wins": 3,
+    "losses": 3,
+    "difference_pp": 0.0,
+    "ci95_pp": [
+      -1.2820512820512822,
+      1.2820512820512822
+    ],
+    "p": 1.0
+  },
+  "by_service": {
+    "Banks_1": {
+      "n": 15,
+      "recent": 13,
+      "coverage": 13,
+      "wins": 0,
+      "losses": 0,
+      "difference_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "p": 1.0
+    },
+    "Events_2": {
+      "n": 38,
+      "recent": 25,
+      "coverage": 25,
+      "wins": 0,
+      "losses": 0,
+      "difference_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "p": 1.0
+    },
+    "Flights_1": {
+      "n": 125,
+      "recent": 61,
+      "coverage": 60,
+      "wins": 0,
+      "losses": 1,
+      "difference_pp": -0.8,
+      "ci95_pp": [
+        -2.4,
+        0.0
+      ],
+      "p": 1.0
+    },
+    "Media_1": {
+      "n": 53,
+      "recent": 0,
+      "coverage": 0,
+      "wins": 0,
+      "losses": 0,
+      "difference_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "p": 1.0
+    },
+    "Restaurants_1": {
+      "n": 158,
+      "recent": 45,
+      "coverage": 46,
+      "wins": 3,
+      "losses": 2,
+      "difference_pp": 0.6329113924050633,
+      "ci95_pp": [
+        -1.8987341772151898,
+        3.7974683544303796
+      ],
+      "p": 1.0
+    },
+    "Services_3": {
+      "n": 1,
+      "recent": 1,
+      "coverage": 1,
+      "wins": 0,
+      "losses": 0,
+      "difference_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "p": 1.0
+    }
+  }
+}

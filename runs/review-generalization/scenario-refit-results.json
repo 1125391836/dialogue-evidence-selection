@@ -1,0 +1,1691 @@
+{
+  "fold_rule": "SHA256(exact native scenario UTF-8) interpreted as big-endian integer modulo 5",
+  "native_scenarios": {
+    "4 exchanges with 1 error and predefined variables": 1,
+    "Auto template 1 with theater name error": 3,
+    "Auto template 10": 4,
+    "Auto template 11": 1,
+    "Auto template 11 ": 2,
+    "Auto template 12 with resolve entity success": 2,
+    "Auto template 14 user wanders off track": 3,
+    "Auto template 2 success": 0,
+    "Auto template 3 with user initially undecided": 3,
+    "Auto template 5 asking for options at one theater": 0,
+    "Auto template 6 user forgets what they decided on": 1,
+    "Auto template 7 vague user input clarified": 3,
+    "Auto template 8 assistant gets back on track": 0,
+    "Auto template 9 success after user decides": 4,
+    "Change of movie with predefined values": 1,
+    "Change of movie with static variables": 4,
+    "Deferred Purchase": 3,
+    "Fewest Turns": 4,
+    "Fewest turns with errors and predefined variables": 2,
+    "Mishearing": 4,
+    "Misunderstanding": 4,
+    "Movie Change": 0,
+    "Options Unavailable": 1,
+    "Recommendation": 1,
+    "Screening Change": 4,
+    "Successful Purchase": 0,
+    "Successful Purchase with fake KB table": 4,
+    "Successful Purchase with fake KB table - 1": 2,
+    "Successful Purchase with fake KB table - 2": 4,
+    "Successful Purchase with predefined values v1": 4,
+    "Successful Purchase with predefined values v2": 2,
+    "Successful Purchase with predefined values v3": 2,
+    "Successful Purchase with static variables": 4,
+    "Successful Purchase with static variables v2": 0,
+    "Theater Change": 3,
+    "Tickets Change": 1,
+    "Time Change": 2,
+    "Time Change with user made up values": 4,
+    "entity resolution": 1
+  },
+  "status": "post hoc; cohort outcomes previously inspected; conceptually related scenarios may have different labels",
+  "budget": 128,
+  "threshold": 0.5,
+  "folds": {
+    "0": {
+      "train_n": 1596,
+      "calibration_n": 193,
+      "target_scenarios": [
+        "Auto template 2 success",
+        "Auto template 5 asking for options at one theater",
+        "Auto template 8 assistant gets back on track",
+        "Movie Change",
+        "Successful Purchase",
+        "Successful Purchase with static variables v2"
+      ],
+      "training_scenarios": [
+        "4 exchanges with 1 error and predefined variables",
+        "Auto template 1 with theater name error",
+        "Auto template 10",
+        "Auto template 11",
+        "Auto template 11 ",
+        "Auto template 12 with resolve entity success",
+        "Auto template 14 user wanders off track",
+        "Auto template 3 with user initially undecided",
+        "Auto template 6 user forgets what they decided on",
+        "Auto template 7 vague user input clarified",
+        "Auto template 9 success after user decides",
+        "Change of movie with predefined values",
+        "Change of movie with static variables",
+        "Deferred Purchase",
+        "Fewest Turns",
+        "Fewest turns with errors and predefined variables",
+        "Mishearing",
+        "Misunderstanding",
+        "Options Unavailable",
+        "Recommendation",
+        "Screening Change",
+        "Successful Purchase with fake KB table",
+        "Successful Purchase with fake KB table - 1",
+        "Successful Purchase with fake KB table - 2",
+        "Successful Purchase with predefined values v1",
+        "Successful Purchase with predefined values v2",
+        "Successful Purchase with predefined values v3",
+        "Successful Purchase with static variables",
+        "Theater Change",
+        "Tickets Change",
+        "Time Change",
+        "Time Change with user made up values",
+        "entity resolution"
+      ],
+      "scored": {
+        "test": 80,
+        "replication": 170
+      }
+    },
+    "1": {
+      "train_n": 1736,
+      "calibration_n": 211,
+      "target_scenarios": [
+        "4 exchanges with 1 error and predefined variables",
+        "Auto template 11",
+        "Auto template 6 user forgets what they decided on",
+        "Change of movie with predefined values",
+        "Options Unavailable",
+        "Recommendation",
+        "Tickets Change",
+        "entity resolution"
+      ],
+      "training_scenarios": [
+        "Auto template 1 with theater name error",
+        "Auto template 10",
+        "Auto template 11 ",
+        "Auto template 12 with resolve entity success",
+        "Auto template 14 user wanders off track",
+        "Auto template 2 success",
+        "Auto template 3 with user initially undecided",
+        "Auto template 5 asking for options at one theater",
+        "Auto template 7 vague user input clarified",
+        "Auto template 8 assistant gets back on track",
+        "Auto template 9 success after user decides",
+        "Change of movie with static variables",
+        "Deferred Purchase",
+        "Fewest Turns",
+        "Fewest turns with errors and predefined variables",
+        "Mishearing",
+        "Misunderstanding",
+        "Movie Change",
+        "Screening Change",
+        "Successful Purchase",
+        "Successful Purchase with fake KB table",
+        "Successful Purchase with fake KB table - 1",
+        "Successful Purchase with fake KB table - 2",
+        "Successful Purchase with predefined values v1",
+        "Successful Purchase with predefined values v2",
+        "Successful Purchase with predefined values v3",
+        "Successful Purchase with static variables",
+        "Successful Purchase with static variables v2",
+        "Theater Change",
+        "Time Change",
+        "Time Change with user made up values"
+      ],
+      "scored": {
+        "test": 56,
+        "replication": 131
+      }
+    },
+    "2": {
+      "train_n": 1650,
+      "calibration_n": 209,
+      "target_scenarios": [
+        "Auto template 11 ",
+        "Auto template 12 with resolve entity success",
+        "Fewest turns with errors and predefined variables",
+        "Successful Purchase with fake KB table - 1",
+        "Successful Purchase with predefined values v2",
+        "Successful Purchase with predefined values v3",
+        "Time Change"
+      ],
+      "training_scenarios": [
+        "4 exchanges with 1 error and predefined variables",
+        "Auto template 1 with theater name error",
+        "Auto template 10",
+        "Auto template 11",
+        "Auto template 14 user wanders off track",
+        "Auto template 2 success",
+        "Auto template 3 with user initially undecided",
+        "Auto template 5 asking for options at one theater",
+        "Auto template 6 user forgets what they decided on",
+        "Auto template 7 vague user input clarified",
+        "Auto template 8 assistant gets back on track",
+        "Auto template 9 success after user decides",
+        "Change of movie with predefined values",
+        "Change of movie with static variables",
+        "Deferred Purchase",
+        "Fewest Turns",
+        "Mishearing",
+        "Misunderstanding",
+        "Movie Change",
+        "Options Unavailable",
+        "Recommendation",
+        "Screening Change",
+        "Successful Purchase",
+        "Successful Purchase with fake KB table",
+        "Successful Purchase with fake KB table - 2",
+        "Successful Purchase with predefined values v1",
+        "Successful Purchase with static variables",
+        "Successful Purchase with static variables v2",
+        "Theater Change",
+        "Tickets Change",
+        "Time Change with user made up values",
+        "entity resolution"
+      ],
+      "scored": {
+        "test": 77,
+        "replication": 148
+      }
+    },
+    "3": {
+      "train_n": 1661,
+      "calibration_n": 211,
+      "target_scenarios": [
+        "Auto template 1 with theater name error",
+        "Auto template 14 user wanders off track",
+        "Auto template 3 with user initially undecided",
+        "Auto template 7 vague user input clarified",
+        "Deferred Purchase",
+        "Theater Change"
+      ],
+      "training_scenarios": [
+        "4 exchanges with 1 error and predefined variables",
+        "Auto template 10",
+        "Auto template 11",
+        "Auto template 11 ",
+        "Auto template 12 with resolve entity success",
+        "Auto template 2 success",
+        "Auto template 5 asking for options at one theater",
+        "Auto template 6 user forgets what they decided on",
+        "Auto template 8 assistant gets back on track",
+        "Auto template 9 success after user decides",
+        "Change of movie with predefined values",
+        "Change of movie with static variables",
+        "Fewest Turns",
+        "Fewest turns with errors and predefined variables",
+        "Mishearing",
+        "Misunderstanding",
+        "Movie Change",
+        "Options Unavailable",
+        "Recommendation",
+        "Screening Change",
+        "Successful Purchase",
+        "Successful Purchase with fake KB table",
+        "Successful Purchase with fake KB table - 1",
+        "Successful Purchase with fake KB table - 2",
+        "Successful Purchase with predefined values v1",
+        "Successful Purchase with predefined values v2",
+        "Successful Purchase with predefined values v3",
+        "Successful Purchase with static variables",
+        "Successful Purchase with static variables v2",
+        "Tickets Change",
+        "Time Change",
+        "Time Change with user made up values",
+        "entity resolution"
+      ],
+      "scored": {
+        "test": 80,
+        "replication": 149
+      }
+    },
+    "4": {
+      "train_n": 1237,
+      "calibration_n": 156,
+      "target_scenarios": [
+        "Auto template 10",
+        "Auto template 9 success after user decides",
+        "Change of movie with static variables",
+        "Fewest Turns",
+        "Mishearing",
+        "Misunderstanding",
+        "Screening Change",
+        "Successful Purchase with fake KB table",
+        "Successful Purchase with fake KB table - 2",
+        "Successful Purchase with predefined values v1",
+        "Successful Purchase with static variables",
+        "Time Change with user made up values"
+      ],
+      "training_scenarios": [
+        "4 exchanges with 1 error and predefined variables",
+        "Auto template 1 with theater name error",
+        "Auto template 11",
+        "Auto template 11 ",
+        "Auto template 12 with resolve entity success",
+        "Auto template 14 user wanders off track",
+        "Auto template 2 success",
+        "Auto template 3 with user initially undecided",
+        "Auto template 5 asking for options at one theater",
+        "Auto template 6 user forgets what they decided on",
+        "Auto template 7 vague user input clarified",
+        "Auto template 8 assistant gets back on track",
+        "Change of movie with predefined values",
+        "Deferred Purchase",
+        "Fewest turns with errors and predefined variables",
+        "Movie Change",
+        "Options Unavailable",
+        "Recommendation",
+        "Successful Purchase",
+        "Successful Purchase with fake KB table - 1",
+        "Successful Purchase with predefined values v2",
+        "Successful Purchase with predefined values v3",
+        "Successful Purchase with static variables v2",
+        "Theater Change",
+        "Tickets Change",
+        "Time Change",
+        "entity resolution"
+      ],
+      "scored": {
+        "test": 177,
+        "replication": 369
+      }
+    }
+  },
+  "cohorts": {
+    "test": {
+      "n": 470,
+      "n_scenarios": 37,
+      "min_group": 1,
+      "median_group": 11.0,
+      "max_group": 74,
+      "arms": {
+        "recent": {
+          "correct": 55,
+          "wrong": 10,
+          "no_write": 405
+        },
+        "field_support": {
+          "correct": 52,
+          "wrong": 13,
+          "no_write": 405
+        }
+      },
+      "outcomes": {
+        "correct": {
+          "delta_pp": -0.6382978723404256,
+          "scenario_ci95_pp": [
+            -3.496554465942221,
+            1.0245901639344261
+          ],
+          "scenario_sign_flip_p": 0.9375,
+          "n_informative_groups": 5,
+          "dialogue_wins": 3,
+          "dialogue_losses": 6,
+          "dialogue_mcnemar_p": 0.5078125,
+          "leave_one_scenario_out_min_pp": -1.0101010101010102,
+          "leave_one_scenario_out_max_pp": 0.43859649122807015,
+          "leave_one_scenario_out": {
+            "4 exchanges with 1 error and predefined variables": -0.6396588486140725,
+            "Auto template 1 with theater name error": -0.6578947368421053,
+            "Auto template 10": -0.6593406593406593,
+            "Auto template 11": -0.6437768240343348,
+            "Auto template 11 ": -0.646551724137931,
+            "Auto template 12 with resolve entity success": -0.8620689655172413,
+            "Auto template 14 user wanders off track": -0.6550218340611353,
+            "Auto template 2 success": -0.6681514476614699,
+            "Auto template 3 with user initially undecided": 0.43859649122807015,
+            "Auto template 5 asking for options at one theater": -0.6578947368421053,
+            "Auto template 6 user forgets what they decided on": -0.6535947712418301,
+            "Auto template 7 vague user input clarified": -0.44150110375275936,
+            "Auto template 8 assistant gets back on track": -0.6535947712418301,
+            "Auto template 9 success after user decides": -0.6423982869379015,
+            "Change of movie with predefined values": -0.6437768240343348,
+            "Change of movie with static variables": -0.6451612903225806,
+            "Fewest Turns": -0.6437768240343348,
+            "Fewest turns with errors and predefined variables": -0.6437768240343348,
+            "Mishearing": -0.6507592190889371,
+            "Misunderstanding": -0.6681514476614699,
+            "Movie Change": -0.6535947712418301,
+            "Options Unavailable": -0.6396588486140725,
+            "Screening Change": -0.6696428571428571,
+            "Successful Purchase": -0.6651884700665188,
+            "Successful Purchase with fake KB table": -1.0101010101010102,
+            "Successful Purchase with fake KB table - 1": -0.6993006993006993,
+            "Successful Purchase with fake KB table - 2": -0.6550218340611353,
+            "Successful Purchase with predefined values v1": -0.6423982869379015,
+            "Successful Purchase with predefined values v2": -0.6437768240343348,
+            "Successful Purchase with predefined values v3": -0.6437768240343348,
+            "Successful Purchase with static variables": -0.6493506493506493,
+            "Successful Purchase with static variables v2": -0.6437768240343348,
+            "Theater Change": -0.8948545861297539,
+            "Tickets Change": -0.6756756756756757,
+            "Time Change": -0.6550218340611353,
+            "Time Change with user made up values": -0.6396588486140725,
+            "entity resolution": -0.6507592190889371
+          }
+        },
+        "wrong": {
+          "delta_pp": 0.6382978723404256,
+          "scenario_ci95_pp": [
+            -1.0723860589812333,
+            2.0454545454545454
+          ],
+          "scenario_sign_flip_p": 0.61328125,
+          "n_informative_groups": 12,
+          "dialogue_wins": 10,
+          "dialogue_losses": 7,
+          "dialogue_mcnemar_p": 0.629058837890625,
+          "leave_one_scenario_out_min_pp": 0.25252525252525254,
+          "leave_one_scenario_out_max_pp": 0.9324009324009324,
+          "leave_one_scenario_out": {
+            "4 exchanges with 1 error and predefined variables": 0.6396588486140725,
+            "Auto template 1 with theater name error": 0.6578947368421053,
+            "Auto template 10": 0.6593406593406593,
+            "Auto template 11": 0.6437768240343348,
+            "Auto template 11 ": 0.646551724137931,
+            "Auto template 12 with resolve entity success": 0.646551724137931,
+            "Auto template 14 user wanders off track": 0.6550218340611353,
+            "Auto template 2 success": 0.6681514476614699,
+            "Auto template 3 with user initially undecided": 0.6578947368421053,
+            "Auto template 5 asking for options at one theater": 0.6578947368421053,
+            "Auto template 6 user forgets what they decided on": 0.6535947712418301,
+            "Auto template 7 vague user input clarified": 0.44150110375275936,
+            "Auto template 8 assistant gets back on track": 0.6535947712418301,
+            "Auto template 9 success after user decides": 0.6423982869379015,
+            "Change of movie with predefined values": 0.4291845493562232,
+            "Change of movie with static variables": 0.8602150537634409,
+            "Fewest Turns": 0.6437768240343348,
+            "Fewest turns with errors and predefined variables": 0.6437768240343348,
+            "Mishearing": 0.6507592190889371,
+            "Misunderstanding": 0.89086859688196,
+            "Movie Change": 0.4357298474945534,
+            "Options Unavailable": 0.6396588486140725,
+            "Screening Change": 0.6696428571428571,
+            "Successful Purchase": 0.4434589800443459,
+            "Successful Purchase with fake KB table": 0.25252525252525254,
+            "Successful Purchase with fake KB table - 1": 0.9324009324009324,
+            "Successful Purchase with fake KB table - 2": 0.6550218340611353,
+            "Successful Purchase with predefined values v1": 0.6423982869379015,
+            "Successful Purchase with predefined values v2": 0.8583690987124464,
+            "Successful Purchase with predefined values v3": 0.6437768240343348,
+            "Successful Purchase with static variables": 0.6493506493506493,
+            "Successful Purchase with static variables v2": 0.8583690987124464,
+            "Theater Change": 0.44742729306487694,
+            "Tickets Change": 0.45045045045045046,
+            "Time Change": 0.6550218340611353,
+            "Time Change with user made up values": 0.6396588486140725,
+            "entity resolution": 0.6507592190889371
+          }
+        }
+      },
+      "scenarios": {
+        "4 exchanges with 1 error and predefined variables": {
+          "n": 1,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            }
+          }
+        },
+        "Auto template 1 with theater name error": {
+          "n": 14,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 14
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 14
+            }
+          }
+        },
+        "Auto template 10": {
+          "n": 15,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 15
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 15
+            }
+          }
+        },
+        "Auto template 11": {
+          "n": 4,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            }
+          }
+        },
+        "Auto template 11 ": {
+          "n": 6,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 6
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 6
+            }
+          }
+        },
+        "Auto template 12 with resolve entity success": {
+          "n": 6,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 6
+            },
+            "field_support": {
+              "correct": 1,
+              "wrong": 0,
+              "no_write": 5
+            }
+          }
+        },
+        "Auto template 14 user wanders off track": {
+          "n": 12,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 12
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 12
+            }
+          }
+        },
+        "Auto template 2 success": {
+          "n": 21,
+          "arms": {
+            "recent": {
+              "correct": 21,
+              "wrong": 0,
+              "no_write": 0
+            },
+            "field_support": {
+              "correct": 21,
+              "wrong": 0,
+              "no_write": 0
+            }
+          }
+        },
+        "Auto template 3 with user initially undecided": {
+          "n": 14,
+          "arms": {
+            "recent": {
+              "correct": 5,
+              "wrong": 0,
+              "no_write": 9
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 14
+            }
+          }
+        },
+        "Auto template 5 asking for options at one theater": {
+          "n": 14,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 14
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 14
+            }
+          }
+        },
+        "Auto template 6 user forgets what they decided on": {
+          "n": 11,
+          "arms": {
+            "recent": {
+              "correct": 11,
+              "wrong": 0,
+              "no_write": 0
+            },
+            "field_support": {
+              "correct": 11,
+              "wrong": 0,
+              "no_write": 0
+            }
+          }
+        },
+        "Auto template 7 vague user input clarified": {
+          "n": 17,
+          "arms": {
+            "recent": {
+              "correct": 17,
+              "wrong": 0,
+              "no_write": 0
+            },
+            "field_support": {
+              "correct": 16,
+              "wrong": 1,
+              "no_write": 0
+            }
+          }
+        },
+        "Auto template 8 assistant gets back on track": {
+          "n": 11,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 11
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 11
+            }
+          }
+        },
+        "Auto template 9 success after user decides": {
+          "n": 3,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 3
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 3
+            }
+          }
+        },
+        "Change of movie with predefined values": {
+          "n": 4,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 3
+            }
+          }
+        },
+        "Change of movie with static variables": {
+          "n": 5,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 4
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 5
+            }
+          }
+        },
+        "Fewest Turns": {
+          "n": 4,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            }
+          }
+        },
+        "Fewest turns with errors and predefined variables": {
+          "n": 4,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            }
+          }
+        },
+        "Mishearing": {
+          "n": 9,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 9
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 9
+            }
+          }
+        },
+        "Misunderstanding": {
+          "n": 21,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 20
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 21
+            }
+          }
+        },
+        "Movie Change": {
+          "n": 11,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 10
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 2,
+              "no_write": 9
+            }
+          }
+        },
+        "Options Unavailable": {
+          "n": 1,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            }
+          }
+        },
+        "Screening Change": {
+          "n": 22,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 21
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 21
+            }
+          }
+        },
+        "Successful Purchase": {
+          "n": 19,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 19
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 18
+            }
+          }
+        },
+        "Successful Purchase with fake KB table": {
+          "n": 74,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 3,
+              "no_write": 71
+            },
+            "field_support": {
+              "correct": 1,
+              "wrong": 5,
+              "no_write": 68
+            }
+          }
+        },
+        "Successful Purchase with fake KB table - 1": {
+          "n": 41,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 40
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 41
+            }
+          }
+        },
+        "Successful Purchase with fake KB table - 2": {
+          "n": 12,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 12
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 12
+            }
+          }
+        },
+        "Successful Purchase with predefined values v1": {
+          "n": 3,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 3
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 3
+            }
+          }
+        },
+        "Successful Purchase with predefined values v2": {
+          "n": 4,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 3
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            }
+          }
+        },
+        "Successful Purchase with predefined values v3": {
+          "n": 4,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 4
+            }
+          }
+        },
+        "Successful Purchase with static variables": {
+          "n": 8,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 8
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 8
+            }
+          }
+        },
+        "Successful Purchase with static variables v2": {
+          "n": 4,
+          "arms": {
+            "recent": {
+              "correct": 1,
+              "wrong": 1,
+              "no_write": 2
+            },
+            "field_support": {
+              "correct": 1,
+              "wrong": 0,
+              "no_write": 3
+            }
+          }
+        },
+        "Theater Change": {
+          "n": 23,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 23
+            },
+            "field_support": {
+              "correct": 1,
+              "wrong": 1,
+              "no_write": 21
+            }
+          }
+        },
+        "Tickets Change": {
+          "n": 26,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 26
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 25
+            }
+          }
+        },
+        "Time Change": {
+          "n": 12,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 12
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 12
+            }
+          }
+        },
+        "Time Change with user made up values": {
+          "n": 1,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            }
+          }
+        },
+        "entity resolution": {
+          "n": 9,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 9
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 9
+            }
+          }
+        }
+      }
+    },
+    "replication": {
+      "n": 967,
+      "n_scenarios": 38,
+      "min_group": 1,
+      "median_group": 18.0,
+      "max_group": 165,
+      "arms": {
+        "recent": {
+          "correct": 111,
+          "wrong": 19,
+          "no_write": 837
+        },
+        "field_support": {
+          "correct": 93,
+          "wrong": 38,
+          "no_write": 836
+        }
+      },
+      "outcomes": {
+        "correct": {
+          "delta_pp": -1.861427094105481,
+          "scenario_ci95_pp": [
+            -5.937864521607675,
+            0.21551724137931033
+          ],
+          "scenario_sign_flip_p": 0.3125,
+          "n_informative_groups": 5,
+          "dialogue_wins": 2,
+          "dialogue_losses": 20,
+          "dialogue_mcnemar_p": 0.00012111663818359375,
+          "leave_one_scenario_out_min_pp": -2.369077306733167,
+          "leave_one_scenario_out_max_pp": -0.31982942430703626,
+          "leave_one_scenario_out": {
+            "4 exchanges with 1 error and predefined variables": -1.875,
+            "Auto template 1 with theater name error": -1.9189765458422174,
+            "Auto template 10": -1.910828025477707,
+            "Auto template 11": -1.8711018711018712,
+            "Auto template 11 ": -1.8808777429467085,
+            "Auto template 12 with resolve entity success": -1.888772298006296,
+            "Auto template 14 user wanders off track": -1.8907563025210083,
+            "Auto template 2 success": -1.725997842502697,
+            "Auto template 3 with user initially undecided": -0.31982942430703626,
+            "Auto template 5 asking for options at one theater": -1.9088016967126193,
+            "Auto template 6 user forgets what they decided on": -1.92102454642476,
+            "Auto template 7 vague user input clarified": -1.5940488841657812,
+            "Auto template 8 assistant gets back on track": -1.8967334035827186,
+            "Auto template 9 success after user decides": -1.8848167539267016,
+            "Change of movie with predefined values": -1.9853709508881923,
+            "Change of movie with static variables": -1.8769551616266944,
+            "Deferred Purchase": -1.8769551616266944,
+            "Fewest Turns": -1.8730489073881373,
+            "Fewest turns with errors and predefined variables": -1.8730489073881373,
+            "Mishearing": -1.9230769230769231,
+            "Misunderstanding": -1.9438444924406046,
+            "Movie Change": -1.9088016967126193,
+            "Options Unavailable": -1.8633540372670807,
+            "Recommendation": -1.8633540372670807,
+            "Screening Change": -1.941747572815534,
+            "Successful Purchase": -1.9758507135016465,
+            "Successful Purchase with fake KB table": -2.369077306733167,
+            "Successful Purchase with fake KB table - 1": -2.0089285714285716,
+            "Successful Purchase with fake KB table - 2": -1.8967334035827186,
+            "Successful Purchase with predefined values v1": -1.875,
+            "Successful Purchase with predefined values v2": -1.8730489073881373,
+            "Successful Purchase with predefined values v3": -1.8808777429467085,
+            "Successful Purchase with static variables": -1.8927444794952681,
+            "Successful Purchase with static variables v2": -1.8769551616266944,
+            "Theater Change": -1.945945945945946,
+            "Tickets Change": -1.9565217391304348,
+            "Time Change": -1.9230769230769231,
+            "entity resolution": -1.92102454642476
+          }
+        },
+        "wrong": {
+          "delta_pp": 1.9648397104446742,
+          "scenario_ci95_pp": [
+            1.168815997087025,
+            2.9197490363323184
+          ],
+          "scenario_sign_flip_p": 0.00048828125,
+          "n_informative_groups": 12,
+          "dialogue_wins": 24,
+          "dialogue_losses": 5,
+          "dialogue_mcnemar_p": 0.0005461126565933228,
+          "leave_one_scenario_out_min_pp": 1.7003188097768331,
+          "leave_one_scenario_out_max_pp": 2.119700748129676,
+          "leave_one_scenario_out": {
+            "4 exchanges with 1 error and predefined variables": 1.875,
+            "Auto template 1 with theater name error": 2.025586353944563,
+            "Auto template 10": 2.0169851380042463,
+            "Auto template 11": 1.975051975051975,
+            "Auto template 11 ": 1.9853709508881923,
+            "Auto template 12 with resolve entity success": 1.993704092339979,
+            "Auto template 14 user wanders off track": 1.8907563025210083,
+            "Auto template 2 success": 1.8338727076591155,
+            "Auto template 3 with user initially undecided": 2.025586353944563,
+            "Auto template 5 asking for options at one theater": 2.014846235418876,
+            "Auto template 6 user forgets what they decided on": 2.0277481323372464,
+            "Auto template 7 vague user input clarified": 1.7003188097768331,
+            "Auto template 8 assistant gets back on track": 2.0021074815595363,
+            "Auto template 9 success after user decides": 1.9895287958115184,
+            "Change of movie with predefined values": 1.9853709508881923,
+            "Change of movie with static variables": 1.981230448383733,
+            "Deferred Purchase": 1.981230448383733,
+            "Fewest Turns": 1.9771071800208118,
+            "Fewest turns with errors and predefined variables": 1.9771071800208118,
+            "Mishearing": 2.02991452991453,
+            "Misunderstanding": 1.83585313174946,
+            "Movie Change": 2.014846235418876,
+            "Options Unavailable": 1.9668737060041408,
+            "Recommendation": 1.9668737060041408,
+            "Screening Change": 2.0496224379719523,
+            "Successful Purchase": 1.8660812294182216,
+            "Successful Purchase with fake KB table": 2.119700748129676,
+            "Successful Purchase with fake KB table - 1": 2.0089285714285716,
+            "Successful Purchase with fake KB table - 2": 2.0021074815595363,
+            "Successful Purchase with predefined values v1": 1.9791666666666667,
+            "Successful Purchase with predefined values v2": 1.9771071800208118,
+            "Successful Purchase with predefined values v3": 1.9853709508881923,
+            "Successful Purchase with static variables": 1.9978969505783386,
+            "Successful Purchase with static variables v2": 1.981230448383733,
+            "Theater Change": 1.945945945945946,
+            "Tickets Change": 1.8478260869565217,
+            "Time Change": 1.9230769230769231,
+            "entity resolution": 1.92102454642476
+          }
+        }
+      },
+      "scenarios": {
+        "4 exchanges with 1 error and predefined variables": {
+          "n": 7,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 7
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 6
+            }
+          }
+        },
+        "Auto template 1 with theater name error": {
+          "n": 29,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 29
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 29
+            }
+          }
+        },
+        "Auto template 10": {
+          "n": 25,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 25
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 25
+            }
+          }
+        },
+        "Auto template 11": {
+          "n": 5,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 5
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 5
+            }
+          }
+        },
+        "Auto template 11 ": {
+          "n": 10,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 10
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 10
+            }
+          }
+        },
+        "Auto template 12 with resolve entity success": {
+          "n": 14,
+          "arms": {
+            "recent": {
+              "correct": 1,
+              "wrong": 0,
+              "no_write": 13
+            },
+            "field_support": {
+              "correct": 1,
+              "wrong": 0,
+              "no_write": 13
+            }
+          }
+        },
+        "Auto template 14 user wanders off track": {
+          "n": 15,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 15
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 14
+            }
+          }
+        },
+        "Auto template 2 success": {
+          "n": 40,
+          "arms": {
+            "recent": {
+              "correct": 39,
+              "wrong": 0,
+              "no_write": 1
+            },
+            "field_support": {
+              "correct": 37,
+              "wrong": 2,
+              "no_write": 1
+            }
+          }
+        },
+        "Auto template 3 with user initially undecided": {
+          "n": 29,
+          "arms": {
+            "recent": {
+              "correct": 15,
+              "wrong": 0,
+              "no_write": 14
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 29
+            }
+          }
+        },
+        "Auto template 5 asking for options at one theater": {
+          "n": 24,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 24
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 24
+            }
+          }
+        },
+        "Auto template 6 user forgets what they decided on": {
+          "n": 30,
+          "arms": {
+            "recent": {
+              "correct": 30,
+              "wrong": 0,
+              "no_write": 0
+            },
+            "field_support": {
+              "correct": 30,
+              "wrong": 0,
+              "no_write": 0
+            }
+          }
+        },
+        "Auto template 7 vague user input clarified": {
+          "n": 26,
+          "arms": {
+            "recent": {
+              "correct": 26,
+              "wrong": 0,
+              "no_write": 0
+            },
+            "field_support": {
+              "correct": 23,
+              "wrong": 3,
+              "no_write": 0
+            }
+          }
+        },
+        "Auto template 8 assistant gets back on track": {
+          "n": 18,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 18
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 18
+            }
+          }
+        },
+        "Auto template 9 success after user decides": {
+          "n": 12,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 12
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 12
+            }
+          }
+        },
+        "Change of movie with predefined values": {
+          "n": 10,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 9
+            },
+            "field_support": {
+              "correct": 1,
+              "wrong": 1,
+              "no_write": 8
+            }
+          }
+        },
+        "Change of movie with static variables": {
+          "n": 8,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 8
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 8
+            }
+          }
+        },
+        "Deferred Purchase": {
+          "n": 8,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 8
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 8
+            }
+          }
+        },
+        "Fewest Turns": {
+          "n": 6,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 5
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 5
+            }
+          }
+        },
+        "Fewest turns with errors and predefined variables": {
+          "n": 6,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 6
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 6
+            }
+          }
+        },
+        "Mishearing": {
+          "n": 31,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 30
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 30
+            }
+          }
+        },
+        "Misunderstanding": {
+          "n": 41,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 41
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 2,
+              "no_write": 39
+            }
+          }
+        },
+        "Movie Change": {
+          "n": 24,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 24
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 24
+            }
+          }
+        },
+        "Options Unavailable": {
+          "n": 1,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            }
+          }
+        },
+        "Recommendation": {
+          "n": 1,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 1
+            }
+          }
+        },
+        "Screening Change": {
+          "n": 40,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 2,
+              "no_write": 38
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 2,
+              "no_write": 38
+            }
+          }
+        },
+        "Successful Purchase": {
+          "n": 56,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 55
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 3,
+              "no_write": 53
+            }
+          }
+        },
+        "Successful Purchase with fake KB table": {
+          "n": 165,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 11,
+              "no_write": 154
+            },
+            "field_support": {
+              "correct": 1,
+              "wrong": 13,
+              "no_write": 151
+            }
+          }
+        },
+        "Successful Purchase with fake KB table - 1": {
+          "n": 71,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 70
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 2,
+              "no_write": 69
+            }
+          }
+        },
+        "Successful Purchase with fake KB table - 2": {
+          "n": 18,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 18
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 18
+            }
+          }
+        },
+        "Successful Purchase with predefined values v1": {
+          "n": 7,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 7
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 7
+            }
+          }
+        },
+        "Successful Purchase with predefined values v2": {
+          "n": 6,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 6
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 6
+            }
+          }
+        },
+        "Successful Purchase with predefined values v3": {
+          "n": 10,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 10
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 10
+            }
+          }
+        },
+        "Successful Purchase with static variables": {
+          "n": 16,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 16
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 16
+            }
+          }
+        },
+        "Successful Purchase with static variables v2": {
+          "n": 8,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 8
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 8
+            }
+          }
+        },
+        "Theater Change": {
+          "n": 42,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 41
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 2,
+              "no_write": 40
+            }
+          }
+        },
+        "Tickets Change": {
+          "n": 47,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 47
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 2,
+              "no_write": 45
+            }
+          }
+        },
+        "Time Change": {
+          "n": 31,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 31
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 30
+            }
+          }
+        },
+        "entity resolution": {
+          "n": 30,
+          "arms": {
+            "recent": {
+              "correct": 0,
+              "wrong": 0,
+              "no_write": 30
+            },
+            "field_support": {
+              "correct": 0,
+              "wrong": 1,
+              "no_write": 29
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "design": "Retrospective paired ablation; both evaluation cohorts previously inspected.",
+  "intervention": "Replace only the selector's mention probabilities by (one-based chronological turn rank)/(number of turns including query). In a same-turn value tie use the existing lexicographic best_fields tie rule.",
+  "constants": "Same training-only vocabulary, candidate pairs, field target selection algorithm, marginal coverage, most recent tie break, 128-token tokenizer budget, learned downstream reader, calibration and 0.5 threshold.",
+  "metrics": "Official correct, wrong and no-write counts. Before the submission gate compare exact proposed order matches. Report paired gains/losses.",
+  "script_sha256": "5a8eb0c579010d03d82a94432fc8b47977fd88ed8196209cbf79435d322dbe61"
+}

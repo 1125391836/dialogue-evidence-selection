@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "name": "deepseek-progressive-60",
+  "call_cap": 60,
+  "seed": 42,
+  "cases_path": "data/processed/mem2act-v1/cases.jsonl",
+  "labels_path": "data/processed/mem2act-v1/labels.jsonl",
+  "encoding": "hf:data/tokenizers/deepseek-v4/tokenizer.json",
+  "history_budget": 2048,
+  "max_prompt_tokens": 24000,
+  "concurrency": 2,
+  "baseline_dev_cases": 3,
+  "train_probe_cases": 5,
+  "dev_probe_cases": 2,
+  "summary_cases": 2,
+  "repeats": 1,
+  "probe_candidate_limit": 100,
+  "search_width": 4,
+  "search_evaluations": 96,
+  "predictor_ridge_alpha": 10.0,
+  "provider": {
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "thinking": "disabled",
+    "temperature": 0,
+    "max_output_tokens": 512,
+    "timeout_seconds": 90
+  },
+  "pricing": {
+    "source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "checked_date": "2026-11-18",
+    "currency": "USD",
+    "per_tokens": 1000000,
+    "input_hit_low": 0.003,
+    "input_hit_high": 0.006,
+    "input_miss_low": 0.15,
+    "input_miss_high": 0.3,
+    "output_low": 0.6,
+    "output_high": 1.2
+  }
+}

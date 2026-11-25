@@ -1,0 +1,77 @@
+{
+  "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "cpu_name": "Intel(R) Core(TM) i7-14700HX",
+  "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:29:05) [MSC v.1942 64 bit (AMD64)]",
+  "onnxruntime": "1.24.4",
+  "encoder_load_ms": 1012.081599998055,
+  "encoder_threads": 2,
+  "methods": {
+    "recent": {
+      "request_cold": {
+        "n": 64,
+        "p50_ms": 4.747599989059381,
+        "p95_ms": 6.809734994021709
+      },
+      "immediate_repeat_warm": {
+        "n": 64,
+        "p50_ms": 4.788549995282665,
+        "p95_ms": 6.596295002964322
+      }
+    },
+    "bm25": {
+      "request_cold": {
+        "n": 64,
+        "p50_ms": 4.775900015374646,
+        "p95_ms": 6.59502998314565
+      },
+      "immediate_repeat_warm": {
+        "n": 64,
+        "p50_ms": 4.69294999493286,
+        "p95_ms": 6.29529500438366
+      }
+    },
+    "field_support": {
+      "request_cold": {
+        "n": 64,
+        "p50_ms": 6.645999994361773,
+        "p95_ms": 8.752040009130724
+      },
+      "immediate_repeat_warm": {
+        "n": 64,
+        "p50_ms": 6.414300005417317,
+        "p95_ms": 8.864524989621714
+      }
+    },
+    "dense": {
+      "request_cold": {
+        "n": 64,
+        "p50_ms": 157.55249999347143,
+        "p95_ms": 211.02386500424473
+      },
+      "immediate_repeat_warm": {
+        "n": 64,
+        "p50_ms": 4.689749999670312,
+        "p95_ms": 6.146365001040976
+      }
+    },
+    "dense_recent_rrf": {
+      "request_cold": {
+        "n": 64,
+        "p50_ms": 161.33484998135827,
+        "p95_ms": 220.6011149959521
+      },
+      "immediate_repeat_warm": {
+        "n": 64,
+        "p50_ms": 4.992600006517023,
+        "p95_ms": 6.9934049970470324
+      }
+    }
+  },
+  "sources": {
+    "scripts\\review_benchmarks.py": "9205aa6e4bc92acd8b57c25adced9a70b0e19667e3e4d68a4677025d6f9ccd0e",
+    "scripts\\ticket_learning.py": "94bff6696e9274a9d79b4a0d96bfb81b71312faed949bab1f683e4635a1d4c69",
+    "scripts\\ticket_execution.py": "85cda10b8fbe4064f4d8db9d566057f137834542ebbca3fb353c3dab121f05b7",
+    "runs\\review-chronology\\protocol.json": "aebb15c1399cad049f07f94d2a890d81fc7669e71818780bdf60c4cea95812f7",
+    "runs\\review-benchmarks\\protocol.json": "cafa42a32daf6a63cbc48ce10c7cc590505ceda1596f1782f55f694aed6826e3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "original_dialogues_sha256": "0ccbb523d5268bcb099331a2a934227ec7ca44cf2b2b50147eae702145f0a1e4",
+  "protocol_sha256": "81558c8d1dbb230974c37181a3173e9ede6969a87d576b6fa3da330e024b8412",
+  "linkage_sha256": "f5f4941382370aaf460ec85f5b6ecfdb710323654f664a5e1a716e0631f0a414",
+  "corrected_details_sha256": {
+    "test": "d658522c2f00b7e0ca8c964dd49cda04b3e26abac4bfcc42a83d52fab92a0950",
+    "replication": "2b5f4a0e3d8b129eb30ebade48509784673bfe7449b5ce6bc0f2b6cbc33e7b4d"
+  },
+  "corrected_dialogues_sha256": "490a00e0ffe6325776e35232e14839ec2a880c6362bed5b2835665e05d2fc211",
+  "original_population": 1391,
+  "matched": {
+    "test": 17,
+    "replication": 31
+  },
+  "revised_display": {
+    "Q04": "replication",
+    "Q31": "replication",
+    "Q25": "replication"
+  },
+  "data_commit": "d92cb6af3005f1dc09c39e75e7daf4a04905e00b"
+}

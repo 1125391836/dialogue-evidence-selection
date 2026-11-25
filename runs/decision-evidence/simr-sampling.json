@@ -1,0 +1,7 @@
+{
+  "source": "https://raw.githubusercontent.com/google-research-datasets/simulated-dialogue/9c5752ffa60d00c58efe52ce2ec6a29f2c2bb47b/sim-R/test.json",
+  "sha256": "ac48747d2b944e08256f6aa7189ef64228da479d872ba099d2ff18ae895cb216",
+  "screened": 775,
+  "eligible": 116,
+  "sample": 64
+}

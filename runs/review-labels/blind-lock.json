@@ -1,0 +1,7 @@
+{
+  "sha256": "d9a2885682dbcf9a3e46d24909c588badd0486eefb3ebb8c1fca8ac6937b4b11",
+  "dialogues_sha256": "0ccbb523d5268bcb099331a2a934227ec7ca44cf2b2b50147eae702145f0a1e4",
+  "protocol_sha256": "81558c8d1dbb230974c37181a3173e9ede6969a87d576b6fa3da330e024b8412",
+  "recorded_utc": "2026-11-23T06:11:11.217146+00:00",
+  "description": "Single model reading of utterances only. Judgments and evidence for 48 cases fixed before access to sample linkage, reference time and per-case model outcomes. No independent human judgments available."
+}

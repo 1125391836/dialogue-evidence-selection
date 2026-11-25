@@ -1,0 +1,392 @@
+{
+  "commit": "d92cb6af3005f1dc09c39e75e7daf4a04905e00b",
+  "train": {
+    "book_rows": 2092,
+    "missing_text_or_required_ref": 117,
+    "duplicate_or_exposed_id": 2,
+    "duplicate_text": 3,
+    "scored": 1970
+  },
+  "train_mentions": 98342,
+  "development": {
+    "book_rows": 520,
+    "missing_text_or_required_ref": 22,
+    "duplicate_text": 6,
+    "scored": 492
+  },
+  "calibration_dialogues": 245,
+  "threshold": 0.5,
+  "dev_raw": {
+    "n": 247,
+    "counts": {
+      "recent": {
+        "wrong": 137,
+        "no_write": 65,
+        "correct": 45
+      },
+      "bm25": {
+        "wrong": 107,
+        "no_write": 106,
+        "correct": 34
+      },
+      "value_recent": {
+        "correct": 47,
+        "wrong": 154,
+        "no_write": 46
+      },
+      "field_support": {
+        "correct": 63,
+        "wrong": 154,
+        "no_write": 30
+      },
+      "full": {
+        "correct": 65,
+        "wrong": 159,
+        "no_write": 23
+      }
+    },
+    "paired": {
+      "correct": {
+        "win": 19,
+        "loss": 1,
+        "diff_pp": 7.28744939271255,
+        "ci95_pp": [
+          4.048582995951417,
+          10.931174089068826
+        ]
+      },
+      "wrong": {
+        "win": 34,
+        "loss": 17,
+        "diff_pp": 6.882591093117409,
+        "ci95_pp": [
+          1.214574898785425,
+          12.550607287449392
+        ]
+      },
+      "no_write": {
+        "win": 0,
+        "loss": 35,
+        "diff_pp": -14.17004048582996,
+        "ci95_pp": [
+          -18.62348178137652,
+          -10.121457489878543
+        ]
+      }
+    }
+  },
+  "dev": {
+    "n": 247,
+    "counts": {
+      "recent": {
+        "no_write": 204,
+        "correct": 42,
+        "wrong": 1
+      },
+      "bm25": {
+        "no_write": 213,
+        "correct": 30,
+        "wrong": 4
+      },
+      "value_recent": {
+        "no_write": 203,
+        "correct": 42,
+        "wrong": 2
+      },
+      "field_support": {
+        "no_write": 191,
+        "correct": 50,
+        "wrong": 6
+      },
+      "full": {
+        "no_write": 206,
+        "correct": 38,
+        "wrong": 3
+      }
+    },
+    "paired": {
+      "correct": {
+        "win": 9,
+        "loss": 1,
+        "diff_pp": 3.2388663967611335,
+        "ci95_pp": [
+          0.8097165991902834,
+          6.0728744939271255
+        ]
+      },
+      "wrong": {
+        "win": 5,
+        "loss": 0,
+        "diff_pp": 2.0242914979757085,
+        "ci95_pp": [
+          0.4048582995951417,
+          4.048582995951417
+        ]
+      },
+      "no_write": {
+        "win": 0,
+        "loss": 13,
+        "diff_pp": -5.263157894736842,
+        "ci95_pp": [
+          -8.097165991902834,
+          -2.834008097165992
+        ]
+      }
+    }
+  },
+  "test": {
+    "coverage": {
+      "book_rows": 505,
+      "previously_viewed": 1,
+      "missing_text_or_required_ref": 28,
+      "duplicate_text": 3,
+      "duplicate_or_exposed_id": 3,
+      "scored": 470
+    },
+    "raw": {
+      "n": 470,
+      "counts": {
+        "recent": {
+          "wrong": 260,
+          "correct": 106,
+          "no_write": 104
+        },
+        "bm25": {
+          "wrong": 210,
+          "correct": 71,
+          "no_write": 189
+        },
+        "value_recent": {
+          "wrong": 279,
+          "correct": 118,
+          "no_write": 73
+        },
+        "field_support": {
+          "wrong": 289,
+          "correct": 141,
+          "no_write": 40
+        },
+        "full": {
+          "wrong": 297,
+          "correct": 140,
+          "no_write": 33
+        }
+      },
+      "paired": {
+        "correct": {
+          "win": 40,
+          "loss": 5,
+          "diff_pp": 7.446808510638298,
+          "ci95_pp": [
+            4.8936170212765955,
+            10.212765957446807
+          ]
+        },
+        "wrong": {
+          "win": 66,
+          "loss": 37,
+          "diff_pp": 6.170212765957447,
+          "ci95_pp": [
+            1.9148936170212765,
+            10.425531914893616
+          ]
+        },
+        "no_write": {
+          "win": 0,
+          "loss": 64,
+          "diff_pp": -13.617021276595745,
+          "ci95_pp": [
+            -16.80851063829787,
+            -10.638297872340425
+          ]
+        }
+      }
+    },
+    "primary": {
+      "n": 470,
+      "counts": {
+        "recent": {
+          "no_write": 370,
+          "correct": 93,
+          "wrong": 7
+        },
+        "bm25": {
+          "no_write": 400,
+          "correct": 60,
+          "wrong": 10
+        },
+        "value_recent": {
+          "no_write": 370,
+          "correct": 93,
+          "wrong": 7
+        },
+        "field_support": {
+          "no_write": 343,
+          "correct": 106,
+          "wrong": 21
+        },
+        "full": {
+          "no_write": 388,
+          "correct": 77,
+          "wrong": 5
+        }
+      },
+      "paired": {
+        "correct": {
+          "win": 17,
+          "loss": 4,
+          "diff_pp": 2.7659574468085104,
+          "ci95_pp": [
+            0.851063829787234,
+            4.680851063829787
+          ]
+        },
+        "wrong": {
+          "win": 16,
+          "loss": 2,
+          "diff_pp": 2.9787234042553195,
+          "ci95_pp": [
+            1.276595744680851,
+            4.8936170212765955
+          ]
+        },
+        "no_write": {
+          "win": 1,
+          "loss": 28,
+          "diff_pp": -5.74468085106383,
+          "ci95_pp": [
+            -7.872340425531915,
+            -3.6170212765957444
+          ]
+        }
+      }
+    }
+  },
+  "replication": {
+    "coverage": {
+      "book_rows": 1035,
+      "missing_text_or_required_ref": 52,
+      "duplicate_or_exposed_id": 9,
+      "duplicate_text": 7,
+      "scored": 967
+    },
+    "raw": {
+      "n": 967,
+      "counts": {
+        "recent": {
+          "wrong": 548,
+          "correct": 204,
+          "no_write": 215
+        },
+        "bm25": {
+          "wrong": 415,
+          "correct": 140,
+          "no_write": 412
+        },
+        "value_recent": {
+          "wrong": 591,
+          "correct": 225,
+          "no_write": 151
+        },
+        "field_support": {
+          "correct": 260,
+          "wrong": 622,
+          "no_write": 85
+        },
+        "full": {
+          "correct": 263,
+          "wrong": 638,
+          "no_write": 66
+        }
+      },
+      "paired": {
+        "correct": {
+          "win": 65,
+          "loss": 9,
+          "diff_pp": 5.791106514994829,
+          "ci95_pp": [
+            4.1365046535677354,
+            7.549120992761117
+          ]
+        },
+        "wrong": {
+          "win": 138,
+          "loss": 64,
+          "diff_pp": 7.652533609100311,
+          "ci95_pp": [
+            4.756980351602896,
+            10.548086866597725
+          ]
+        },
+        "no_write": {
+          "win": 1,
+          "loss": 131,
+          "diff_pp": -13.443640124095142,
+          "ci95_pp": [
+            -15.615305067218202,
+            -11.271975180972078
+          ]
+        }
+      }
+    },
+    "primary": {
+      "n": 967,
+      "counts": {
+        "recent": {
+          "no_write": 770,
+          "correct": 186,
+          "wrong": 11
+        },
+        "bm25": {
+          "no_write": 823,
+          "correct": 127,
+          "wrong": 17
+        },
+        "value_recent": {
+          "no_write": 775,
+          "correct": 184,
+          "wrong": 8
+        },
+        "field_support": {
+          "correct": 208,
+          "no_write": 721,
+          "wrong": 38
+        },
+        "full": {
+          "no_write": 815,
+          "correct": 141,
+          "wrong": 11
+        }
+      },
+      "paired": {
+        "correct": {
+          "win": 30,
+          "loss": 8,
+          "diff_pp": 2.2750775594622543,
+          "ci95_pp": [
+            1.0341261633919339,
+            3.5160289555325748
+          ]
+        },
+        "wrong": {
+          "win": 30,
+          "loss": 3,
+          "diff_pp": 2.792140641158221,
+          "ci95_pp": [
+            1.6546018614270943,
+            3.9296794208893484
+          ]
+        },
+        "no_write": {
+          "win": 3,
+          "loss": 52,
+          "diff_pp": -5.067218200620475,
+          "ci95_pp": [
+            -6.514994829369184,
+            -3.6194415718717683
+          ]
+        }
+      }
+    }
+  }
+}

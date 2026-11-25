@@ -1,0 +1,27 @@
+{
+  "study": "new-dialogue SGD test of frozen schema adapter",
+  "source_commit": "e852981ae34990f4358979625854259302feaa78",
+  "data_repo": "https://github.com/google-research-datasets/dstc8-schema-guided-dialogue",
+  "files": [
+    "train/dialogues_002.json",
+    "train/dialogues_018.json",
+    "train/dialogues_034.json",
+    "train/dialogues_050.json",
+    "train/dialogues_066.json",
+    "train/dialogues_082.json",
+    "train/dialogues_098.json",
+    "train/dialogues_114.json"
+  ],
+  "exclude_services": "union of official SGD dev and test catalogues",
+  "exclude_duplicates": "dialogue ID and/or normalized public speech through final call against old 16 train shards and local dev/test; deduplicate within batch",
+  "eligibility": "last call immediately follows a user message, with at least one reference parameter in public categorical intent slots",
+  "diagnostic": "one exact-match result per eligible dialogue; known service and intent; no learned movie model transfer",
+  "arms": [
+    "recent",
+    "coverage"
+  ],
+  "tokens": 128,
+  "threshold_tuning": false,
+  "primary_comparison": "paired dialogue delta, 20000 percentile pairs bootstrap, two-sided exact McNemar; service breakdown descriptive",
+  "frozen_adapter_sha256": "0790b0644b2f980dc009230a202bf7903806240a3b2ca72f554a9b1582441369"
+}

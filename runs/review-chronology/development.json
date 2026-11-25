@@ -1,0 +1,137 @@
+{
+  "commit": "d92cb6af3005f1dc09c39e75e7daf4a04905e00b",
+  "train": {
+    "book_rows": 2092,
+    "missing_text_or_required_ref": 117,
+    "duplicate_or_exposed_id": 2,
+    "duplicate_text": 3,
+    "scored": 1970
+  },
+  "train_mentions": 98342,
+  "development": {
+    "book_rows": 520,
+    "missing_text_or_required_ref": 22,
+    "duplicate_text": 6,
+    "scored": 492
+  },
+  "calibration_dialogues": 245,
+  "threshold": 0.5,
+  "dev_raw": {
+    "n": 247,
+    "counts": {
+      "recent": {
+        "wrong": 137,
+        "no_write": 65,
+        "correct": 45
+      },
+      "bm25": {
+        "wrong": 107,
+        "no_write": 106,
+        "correct": 34
+      },
+      "value_recent": {
+        "correct": 47,
+        "wrong": 154,
+        "no_write": 46
+      },
+      "field_support": {
+        "correct": 63,
+        "wrong": 154,
+        "no_write": 30
+      },
+      "full": {
+        "correct": 65,
+        "wrong": 159,
+        "no_write": 23
+      }
+    },
+    "paired": {
+      "correct": {
+        "win": 19,
+        "loss": 1,
+        "diff_pp": 7.28744939271255,
+        "ci95_pp": [
+          4.048582995951417,
+          10.931174089068826
+        ]
+      },
+      "wrong": {
+        "win": 34,
+        "loss": 17,
+        "diff_pp": 6.882591093117409,
+        "ci95_pp": [
+          1.214574898785425,
+          12.550607287449392
+        ]
+      },
+      "no_write": {
+        "win": 0,
+        "loss": 35,
+        "diff_pp": -14.17004048582996,
+        "ci95_pp": [
+          -18.62348178137652,
+          -10.121457489878543
+        ]
+      }
+    }
+  },
+  "dev": {
+    "n": 247,
+    "counts": {
+      "recent": {
+        "no_write": 204,
+        "correct": 42,
+        "wrong": 1
+      },
+      "bm25": {
+        "no_write": 213,
+        "correct": 30,
+        "wrong": 4
+      },
+      "value_recent": {
+        "no_write": 203,
+        "correct": 42,
+        "wrong": 2
+      },
+      "field_support": {
+        "no_write": 191,
+        "correct": 50,
+        "wrong": 6
+      },
+      "full": {
+        "no_write": 206,
+        "correct": 38,
+        "wrong": 3
+      }
+    },
+    "paired": {
+      "correct": {
+        "win": 9,
+        "loss": 1,
+        "diff_pp": 3.2388663967611335,
+        "ci95_pp": [
+          0.8097165991902834,
+          6.0728744939271255
+        ]
+      },
+      "wrong": {
+        "win": 5,
+        "loss": 0,
+        "diff_pp": 2.0242914979757085,
+        "ci95_pp": [
+          0.4048582995951417,
+          4.048582995951417
+        ]
+      },
+      "no_write": {
+        "win": 0,
+        "loss": 13,
+        "diff_pp": -5.263157894736842,
+        "ci95_pp": [
+          -8.097165991902834,
+          -2.834008097165992
+        ]
+      }
+    }
+  }
+}

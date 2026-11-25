@@ -1,0 +1,28 @@
+{
+  "ticket_commit": "d92cb6af3005f1dc09c39e75e7daf4a04905e00b",
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_commit": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "encoder_hashes": {
+    "model_quint8_avx2.onnx": "b941bf19f1f1283680f449fa6a7336bb5600bdcd5f84d10ddc5cd72218a0fd21",
+    "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037"
+  },
+  "similarity": "unit-normalized mean-pooled vectors, cosine; fixed public schema plus current turn",
+  "rrf": "equal-weight reciprocal rank fusion with recency, k=60",
+  "budget": 128,
+  "threshold": 0.5,
+  "seed": 42,
+  "methods": [
+    "recent",
+    "bm25",
+    "dense",
+    "dense_recent_rrf",
+    "field_support",
+    "no_marginal",
+    "tie_oldest",
+    "optional_0.3",
+    "optional_0.7"
+  ],
+  "cohorts": "reuse exact review-chronology test and replication dialogue IDs",
+  "adapter_sha256": "85cda10b8fbe4064f4d8db9d566057f137834542ebbca3fb353c3dab121f05b7",
+  "timing": "64 primary dialogues with smallest SHA256(ID), cache-cold and immediate repeat, RNG 20261123"
+}

@@ -1,0 +1,11 @@
+{
+  "code": "94bff6696e9274a9d79b4a0d96bfb81b71312faed949bab1f683e4635a1d4c69",
+  "adapter_sha256": "85cda10b8fbe4064f4d8db9d566057f137834542ebbca3fb353c3dab121f05b7",
+  "adapter": "CSV unquoting; pre-<C> user utterance is current, post-<C> messages are history",
+  "threshold": 0.5,
+  "seed": 42,
+  "primary": "field_support versus recent, 128 tokens, identical learned reader and execution threshold",
+  "primary_cohort": "official test-aa excluding first inspected purchase and prior scored dialogue IDs",
+  "secondary": "dev-ab and dev-ac, excluding training, tuned development, primary and duplicate texts",
+  "bootstrap": "paired per-dialogue percentile bootstrap, 20000 resamples; template dependence unmodeled"
+}

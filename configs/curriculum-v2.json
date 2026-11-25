@@ -1,0 +1,22 @@
+{
+  "name": "curriculum-v2",
+  "seed": 20261118,
+  "cases_path": "data/processed/mem2act-v1/cases.jsonl",
+  "encoding": "hf:data/tokenizers/deepseek-v4/tokenizer.json",
+  "groups": {"train": 32, "dev": 8},
+  "history_budget": 2048,
+  "sample_budgets": [512, 1024, 2048],
+  "max_prompt_tokens": 24000,
+  "repeats": 2,
+  "candidate_limit": 100,
+  "control_pool_items": 20,
+  "control_tolerance_tokens": 64,
+  "provider": {
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "thinking": "disabled",
+    "temperature": 0,
+    "max_output_tokens": 512,
+    "timeout_seconds": 90
+  }
+}

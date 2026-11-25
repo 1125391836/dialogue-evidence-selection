@@ -1,0 +1,186 @@
+{
+  "test": {
+    "fixed": {
+      "recent": {
+        "no_write": 370,
+        "correct": 93,
+        "wrong": 7
+      },
+      "field_support": {
+        "no_write": 343,
+        "correct": 106,
+        "wrong": 21
+      },
+      "adjacent": {
+        "no_write": 372,
+        "correct": 92,
+        "wrong": 6
+      },
+      "pivot": {
+        "no_write": 434,
+        "correct": 28,
+        "wrong": 8
+      },
+      "decision": {
+        "no_write": 386,
+        "correct": 72,
+        "wrong": 12
+      }
+    },
+    "fixed_conditional_risk_delta_ci95_pp": {
+      "recent": [
+        0.9363218760977865,
+        17.01586554909339
+      ],
+      "adjacent": [
+        -0.7897039192909725,
+        19.44247817950083
+      ],
+      "field_support": [
+        -13.294642857142854,
+        8.797989392501586
+      ],
+      "pivot": [
+        -23.397563570882895,
+        6.735834361004729
+      ]
+    },
+    "dev20": {
+      "recent": {
+        "no_write": 363,
+        "correct": 96,
+        "wrong": 11
+      },
+      "field_support": {
+        "no_write": 352,
+        "correct": 105,
+        "wrong": 13
+      },
+      "adjacent": {
+        "no_write": 358,
+        "correct": 98,
+        "wrong": 14
+      },
+      "pivot": {
+        "no_write": 377,
+        "correct": 37,
+        "wrong": 56
+      },
+      "decision": {
+        "no_write": 372,
+        "correct": 74,
+        "wrong": 24
+      }
+    },
+    "dev20_conditional_risk_delta_ci95_pp": {
+      "recent": [
+        6.2536872377573145,
+        27.066548950107272
+      ],
+      "adjacent": [
+        3.9083269979496382,
+        24.225270332013398
+      ],
+      "field_support": [
+        3.6817362830525604,
+        31.87914069784561
+      ],
+      "pivot": [
+        -47.74795403573568,
+        -16.803567615025045
+      ]
+    }
+  },
+  "replication": {
+    "fixed": {
+      "recent": {
+        "no_write": 770,
+        "correct": 186,
+        "wrong": 11
+      },
+      "field_support": {
+        "correct": 208,
+        "no_write": 721,
+        "wrong": 38
+      },
+      "adjacent": {
+        "no_write": 776,
+        "correct": 184,
+        "wrong": 7
+      },
+      "pivot": {
+        "wrong": 19,
+        "correct": 50,
+        "no_write": 898
+      },
+      "decision": {
+        "no_write": 799,
+        "correct": 148,
+        "wrong": 20
+      }
+    },
+    "fixed_conditional_risk_delta_ci95_pp": {
+      "recent": [
+        4.163313250414653,
+        10.217512077294685
+      ],
+      "adjacent": [
+        5.227280725655287,
+        14.836781541659205
+      ],
+      "field_support": [
+        -11.978080963293449,
+        2.995978432983942
+      ],
+      "pivot": [
+        -40.95243182743183,
+        5.751041957266299
+      ]
+    },
+    "dev20": {
+      "recent": {
+        "no_write": 759,
+        "correct": 187,
+        "wrong": 21
+      },
+      "field_support": {
+        "correct": 202,
+        "no_write": 737,
+        "wrong": 28
+      },
+      "adjacent": {
+        "no_write": 751,
+        "correct": 193,
+        "wrong": 23
+      },
+      "pivot": {
+        "wrong": 102,
+        "correct": 70,
+        "no_write": 795
+      },
+      "decision": {
+        "no_write": 763,
+        "correct": 150,
+        "wrong": 54
+      }
+    },
+    "dev20_conditional_risk_delta_ci95_pp": {
+      "recent": [
+        10.367536368108182,
+        27.8115776705085
+      ],
+      "adjacent": [
+        8.872756136908839,
+        28.22818297939584
+      ],
+      "field_support": [
+        5.5396204946037715,
+        31.152714351458506
+      ],
+      "pivot": [
+        -47.20153674972952,
+        -15.19973990425665
+      ]
+    }
+  }
+}

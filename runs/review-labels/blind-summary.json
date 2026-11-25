@@ -1,0 +1,36 @@
+{
+  "population": 1391,
+  "sample": 48,
+  "counts": {
+    "agrees": 38,
+    "reference_uncertain": 3,
+    "conflicts": 7
+  },
+  "evidence": {
+    "choice": 34,
+    "ordinal": 4,
+    "offer": 5,
+    "revision": 2,
+    "summary": 3
+  },
+  "clearly_disagreed_fraction": 0.14583333333333334,
+  "clearly_disagreed_ci95": [
+    0.0724824932660371,
+    0.2716717652474627
+  ],
+  "among_comparable": 0.15555555555555556,
+  "among_comparable_ci95": [
+    0.07745423484758268,
+    0.28783908872396263
+  ],
+  "observed_bounds": [
+    0.14583333333333334,
+    0.20833333333333334
+  ],
+  "sampling_and_identification_bounds95": [
+    0.06568681998531606,
+    0.36399325444168945
+  ],
+  "annotation_sha256": "d9a2885682dbcf9a3e46d24909c588badd0486eefb3ebb8c1fca8ac6937b4b11",
+  "protocol_sha256": "81558c8d1dbb230974c37181a3173e9ede6969a87d576b6fa3da330e024b8412"
+}

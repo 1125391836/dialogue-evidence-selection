@@ -1,0 +1,80 @@
+{
+  "test": {
+    "n": 470,
+    "counts": {
+      "recent": {
+        "no_write": 370,
+        "exact_proposal": 106,
+        "correct": 93,
+        "wrong": 7
+      },
+      "recency_scores": {
+        "no_write": 351,
+        "exact_proposal": 129,
+        "correct": 104,
+        "wrong": 15
+      },
+      "field_support": {
+        "no_write": 343,
+        "exact_proposal": 141,
+        "correct": 106,
+        "wrong": 21
+      }
+    },
+    "paired": {
+      "exact_proposal": {
+        "learned_only": 16,
+        "recency_scores_only": 4
+      },
+      "correct": {
+        "learned_only": 3,
+        "recency_scores_only": 1
+      },
+      "wrong": {
+        "learned_only": 8,
+        "recency_scores_only": 2
+      }
+    },
+    "changed_selection": 359,
+    "cohort_sha256": "d658522c2f00b7e0ca8c964dd49cda04b3e26abac4bfcc42a83d52fab92a0950"
+  },
+  "replication": {
+    "n": 967,
+    "counts": {
+      "recent": {
+        "no_write": 770,
+        "exact_proposal": 204,
+        "correct": 186,
+        "wrong": 11
+      },
+      "recency_scores": {
+        "correct": 207,
+        "exact_proposal": 248,
+        "no_write": 728,
+        "wrong": 32
+      },
+      "field_support": {
+        "correct": 208,
+        "exact_proposal": 260,
+        "no_write": 721,
+        "wrong": 38
+      }
+    },
+    "paired": {
+      "exact_proposal": {
+        "learned_only": 17,
+        "recency_scores_only": 5
+      },
+      "correct": {
+        "learned_only": 2,
+        "recency_scores_only": 1
+      },
+      "wrong": {
+        "learned_only": 10,
+        "recency_scores_only": 4
+      }
+    },
+    "changed_selection": 715,
+    "cohort_sha256": "2b5f4a0e3d8b129eb30ebade48509784673bfe7449b5ce6bc0f2b6cbc33e7b4d"
+  }
+}

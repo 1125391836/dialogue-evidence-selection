@@ -1,0 +1,10 @@
+{
+  "split": "dev",
+  "seed": 42,
+  "max_cases": 10,
+  "encoding": "utf8_bytes",
+  "history_budgets": [2000, 4000],
+  "methods": ["recent", "bm25", "rule_pairs", "full"],
+  "max_pairs": 100,
+  "repeats": 1
+}

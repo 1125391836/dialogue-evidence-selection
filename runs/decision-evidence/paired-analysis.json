@@ -1,0 +1,270 @@
+{
+  "test": {
+    "changed_selection": 116,
+    "field_gains": {
+      "num.tickets": 6,
+      "time.showing": 5,
+      "name.movie": 7,
+      "name.theater": 5,
+      "seating": 0,
+      "date.showing": 4
+    },
+    "field_losses": {
+      "num.tickets": 36,
+      "time.showing": 24,
+      "name.movie": 2,
+      "name.theater": 16,
+      "seating": 1,
+      "date.showing": 35
+    },
+    "posthoc_same_coverage": {
+      "recent": {
+        "submitted": 94,
+        "wrong": 5
+      },
+      "field_support": {
+        "submitted": 94,
+        "wrong": 7
+      },
+      "adjacent": {
+        "submitted": 94,
+        "wrong": 6
+      },
+      "pivot": {
+        "submitted": 94,
+        "wrong": 57
+      },
+      "decision": {
+        "submitted": 94,
+        "wrong": 21
+      }
+    }
+  },
+  "replication": {
+    "changed_selection": 229,
+    "field_gains": {
+      "time.showing": 14,
+      "num.tickets": 9,
+      "name.movie": 14,
+      "name.theater": 9,
+      "date.showing": 5,
+      "seating": 6
+    },
+    "field_losses": {
+      "time.showing": 44,
+      "num.tickets": 63,
+      "name.movie": 15,
+      "name.theater": 28,
+      "date.showing": 67,
+      "seating": 0
+    },
+    "posthoc_same_coverage": {
+      "recent": {
+        "submitted": 193,
+        "wrong": 10
+      },
+      "field_support": {
+        "submitted": 193,
+        "wrong": 21
+      },
+      "adjacent": {
+        "submitted": 193,
+        "wrong": 8
+      },
+      "pivot": {
+        "submitted": 193,
+        "wrong": 123
+      },
+      "decision": {
+        "submitted": 193,
+        "wrong": 44
+      }
+    }
+  },
+  "movie": {
+    "paired": {
+      "recent": {
+        "decision_only": 0,
+        "other_only": 0,
+        "difference_pp": 0.0,
+        "dialogue_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "p": 1
+      },
+      "field_support": {
+        "decision_only": 0,
+        "other_only": 0,
+        "difference_pp": 0.0,
+        "dialogue_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "p": 1
+      },
+      "adjacent": {
+        "decision_only": 0,
+        "other_only": 0,
+        "difference_pp": 0.0,
+        "dialogue_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "p": 1
+      },
+      "pivot": {
+        "decision_only": 0,
+        "other_only": 0,
+        "difference_pp": 0.0,
+        "dialogue_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "p": 1
+      }
+    },
+    "clock_normalized_exact": {}
+  },
+  "movie_schema": {
+    "paired": {
+      "recent": {
+        "decision_only": 0,
+        "other_only": 1,
+        "difference_pp": -1.0416666666666667,
+        "dialogue_ci95_pp": [
+          -3.125,
+          0.0
+        ],
+        "p": 1.0
+      },
+      "field_support": {
+        "decision_only": 0,
+        "other_only": 2,
+        "difference_pp": -2.0833333333333335,
+        "dialogue_ci95_pp": [
+          -5.208333333333334,
+          0.0
+        ],
+        "p": 0.5
+      },
+      "adjacent": {
+        "decision_only": 0,
+        "other_only": 2,
+        "difference_pp": -2.0833333333333335,
+        "dialogue_ci95_pp": [
+          -5.208333333333334,
+          0.0
+        ],
+        "p": 0.5
+      },
+      "pivot": {
+        "decision_only": 0,
+        "other_only": 1,
+        "difference_pp": -1.0416666666666667,
+        "dialogue_ci95_pp": [
+          -3.125,
+          0.0
+        ],
+        "p": 1.0
+      }
+    },
+    "clock_normalized_exact": {}
+  },
+  "restaurant": {
+    "paired": {
+      "recent": {
+        "decision_only": 1,
+        "other_only": 1,
+        "difference_pp": 0.0,
+        "dialogue_ci95_pp": [
+          -3.125,
+          3.125
+        ],
+        "p": 1.0
+      },
+      "adjacent": {
+        "decision_only": 8,
+        "other_only": 3,
+        "difference_pp": 5.208333333333333,
+        "dialogue_ci95_pp": [
+          -1.0416666666666665,
+          12.5
+        ],
+        "p": 0.2265625
+      },
+      "pivot": {
+        "decision_only": 34,
+        "other_only": 0,
+        "difference_pp": 35.416666666666664,
+        "dialogue_ci95_pp": [
+          26.041666666666668,
+          44.79166666666667
+        ],
+        "p": 1.1641532182693481e-10
+      },
+      "full": {
+        "decision_only": 17,
+        "other_only": 4,
+        "difference_pp": 13.541666666666666,
+        "dialogue_ci95_pp": [
+          4.166666666666666,
+          22.916666666666664
+        ],
+        "p": 0.007197380065917969
+      }
+    },
+    "clock_normalized_exact": {}
+  },
+  "simr": {
+    "paired": {
+      "recent": {
+        "decision_only": 2,
+        "other_only": 0,
+        "difference_pp": 3.125,
+        "dialogue_ci95_pp": [
+          0.0,
+          7.8125
+        ],
+        "p": 0.5
+      },
+      "adjacent": {
+        "decision_only": 3,
+        "other_only": 3,
+        "difference_pp": 0.0,
+        "dialogue_ci95_pp": [
+          -7.8125,
+          7.8125
+        ],
+        "p": 1.0
+      },
+      "pivot": {
+        "decision_only": 9,
+        "other_only": 8,
+        "difference_pp": 1.5625,
+        "dialogue_ci95_pp": [
+          -10.9375,
+          14.0625
+        ],
+        "p": 1.0
+      },
+      "full": {
+        "decision_only": 2,
+        "other_only": 14,
+        "difference_pp": -18.75,
+        "dialogue_ci95_pp": [
+          -29.6875,
+          -7.8125
+        ],
+        "p": 0.004180908203125
+      }
+    },
+    "clock_normalized_exact": {
+      "recent": 43,
+      "adjacent": 45,
+      "pivot": 44,
+      "decision": 45,
+      "full": 57
+    }
+  }
+}
